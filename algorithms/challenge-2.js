@@ -8,12 +8,5 @@ function checkNumber(num) {
     }
 }
 
-let firstNumber = 44;
-let secondNumber = -666;
-let thirdNumber = 0;
-
-console.log(firstNumber + " is " + checkNumber(firstNumber));
-console.log(secondNumber + " is " + checkNumber(secondNumber));
-console.log(thirdNumber + " is " + checkNumber(thirdNumber));
 
 module.exports = checkNumber;

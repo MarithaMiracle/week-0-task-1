@@ -12,12 +12,5 @@ function classifyTemperature(temp) {
     }
 }
 
-let temp1 = -4;
-let temp2 = 14;
-let temp3 = 24;
-
-console.log(temp1 + " is " + classifyTemperature(temp1));
-console.log(temp2 + " is " + classifyTemperature(temp2));
-console.log(temp3 + " is " + classifyTemperature(temp3));
 
 module.exports = classifyTemperature;

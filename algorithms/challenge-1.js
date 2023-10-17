@@ -12,9 +12,4 @@ function countCharOccurrences(str, char) {
       
 }
 
-let str = 'Maritha';
-let char = 'a';
-let characterCounts = countCharOccurrences(str, char);
-console.log(`Occurrences of "${char}" in the string: ${characterCounts}`);
-
 module.exports = countCharOccurrences;
